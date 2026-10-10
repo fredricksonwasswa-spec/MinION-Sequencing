@@ -4,6 +4,7 @@ references/
 *.fa
 *.fa.gz
 *.fasta
+*.mmi
 *.fastq
 *.fastq.gz
 *.fq.gz
