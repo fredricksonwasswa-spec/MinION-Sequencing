@@ -1,0 +1,3 @@
+gene	sample	columns_compared	mismatches	indel_columns	identity_pct	n_columns_masked
+CNA1	run_one__barcode01	1581	164	0	89.627	1514
+URE1	run_one__barcode01	1714	128	0	92.532	2180

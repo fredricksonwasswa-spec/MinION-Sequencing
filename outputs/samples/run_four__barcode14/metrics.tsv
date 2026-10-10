@@ -1,0 +1,17 @@
+sample_key	run_four__barcode14
+run	run_four
+barcode	barcode14
+sample_id	run_four__barcode14
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	1
+raw_bases	1397
+filtered_reads	1
+filtered_bases	1397
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	1
+human_bases_removed	1397
+status	no_nonhuman_reads

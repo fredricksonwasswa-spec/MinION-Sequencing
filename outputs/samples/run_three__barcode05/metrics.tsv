@@ -1,0 +1,13 @@
+sample_key	run_three__barcode05
+run	run_three
+barcode	barcode05
+sample_id	run_three__barcode05
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	6
+raw_bases	1606
+filtered_reads	0
+filtered_bases	0
+status	no_reads_after_filter

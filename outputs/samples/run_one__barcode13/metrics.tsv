@@ -1,0 +1,17 @@
+sample_key	run_one__barcode13
+run	run_one
+barcode	barcode13
+sample_id	run_one__barcode13
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	90
+raw_bases	50306
+filtered_reads	17
+filtered_bases	29077
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	17
+human_bases_removed	29077
+status	no_nonhuman_reads

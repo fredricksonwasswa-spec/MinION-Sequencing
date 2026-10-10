@@ -1,0 +1,5 @@
+chrom	length	bases	mean	min	max
+NC_026750.1	1422463	446	0.00	0	1
+NC_026750.1_region	0	0	0.00	0	0
+total	1422463	446	0.00	0	1
+total_region	0	0	0.00	0	0

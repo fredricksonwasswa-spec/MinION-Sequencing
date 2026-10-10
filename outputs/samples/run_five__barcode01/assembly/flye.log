@@ -1,0 +1,48 @@
+[2026-09-30 22:26:33] INFO: Starting Flye 2.9.5-b1801
+[2026-09-30 22:26:33] INFO: >>>STAGE: configure
+[2026-09-30 22:26:33] INFO: Configuring run
+[2026-09-30 22:26:33] INFO: Total read length: 1383477
+[2026-09-30 22:26:33] INFO: Reads N50/N90: 2540 / 838
+[2026-09-30 22:26:33] INFO: Minimum overlap set to 1000
+[2026-09-30 22:26:33] INFO: >>>STAGE: assembly
+[2026-09-30 22:26:33] INFO: Assembling disjointigs
+[2026-09-30 22:26:33] INFO: Reading sequences
+[2026-09-30 22:26:33] INFO: Building minimizer index
+[2026-09-30 22:26:33] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:33] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:35] INFO: Extending reads
+[2026-09-30 22:26:36] INFO: Overlap-based coverage: 1
+[2026-09-30 22:26:36] INFO: Median overlap divergence: 0.0398773
+0% 10% 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:37] INFO: Assembled 12 disjointigs
+[2026-09-30 22:26:37] INFO: Generating sequence
+0% 10% 20% 30% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:37] INFO: Filtering contained disjointigs
+0% 10% 20% 304030% % 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:37] INFO: Contained seqs: 0
+[2026-09-30 22:26:38] INFO: >>>STAGE: consensus
+[2026-09-30 22:26:38] INFO: Running Minimap2
+[2026-09-30 22:26:38] INFO: Computing consensus
+[2026-09-30 22:26:40] INFO: Alignment error rate: 0.023397
+[2026-09-30 22:26:40] INFO: >>>STAGE: repeat
+[2026-09-30 22:26:40] INFO: Building and resolving repeat graph
+[2026-09-30 22:26:40] INFO: Parsing disjointigs
+[2026-09-30 22:26:40] INFO: Building repeat graph
+0% 10% 20% % 30% 40% 50% % 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:41] INFO: Median overlap divergence: 0
+[2026-09-30 22:26:41] INFO: Parsing reads
+[2026-09-30 22:26:41] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-09-30 22:26:42] INFO: Aligned read sequence: 117506 / 1180482 (0.0995407)
+[2026-09-30 22:26:42] INFO: Median overlap divergence: 0.0163448
+[2026-09-30 22:26:42] INFO: Mean edge coverage: 1
+[2026-09-30 22:26:42] INFO: Simplifying the graph
+[2026-09-30 22:26:42] INFO: >>>STAGE: contigger
+[2026-09-30 22:26:42] INFO: Generating contigs
+[2026-09-30 22:26:42] INFO: Reading sequences
+[2026-09-30 22:26:42] INFO: Generated 0 contigs
+[2026-09-30 22:26:42] INFO: Added 0 scaffold connections
+[2026-09-30 22:26:42] ERROR: No contigs were assembled - pipeline stopped
+[2026-09-30 22:26:42] ERROR: Pipeline aborted

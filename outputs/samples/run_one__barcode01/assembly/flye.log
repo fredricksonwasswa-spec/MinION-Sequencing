@@ -1,0 +1,12 @@
+[2026-09-30 23:01:09] INFO: Starting Flye 2.9.5-b1801
+[2026-09-30 23:01:09] INFO: >>>STAGE: configure
+[2026-09-30 23:01:09] INFO: Configuring run
+[2026-09-30 23:01:11] INFO: Total read length: 14311700
+[2026-09-30 23:01:11] INFO: Reads N50/N90: 1356 / 639
+[2026-09-30 23:01:11] INFO: Minimum overlap set to 1000
+[2026-09-30 23:01:11] INFO: >>>STAGE: assembly
+[2026-09-30 23:01:11] INFO: Assembling disjointigs
+[2026-09-30 23:01:11] INFO: Reading sequences
+[2026-09-30 23:01:11] ERROR: The input contain reads with duplicated IDs. Make sure all reads have unique IDs and restart. The first problematic ID was: 94b57972-7272-4479-934e-f340115763c5
+[2026-09-30 23:01:11] ERROR: Command '['flye-modules', 'assemble', '--reads', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/crypto_reads.fastq.gz', '--out-asm', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/00-assembly/draft_assembly.fasta', '--config', '/usr/local/lib/python3.10/site-packages/flye/config/bin_cfg/asm_nano_hq.cfg', '--log', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/flye.log', '--threads', '8', '--min-ovlp', '1000']' returned non-zero exit status 1.
+[2026-09-30 23:01:11] ERROR: Pipeline aborted

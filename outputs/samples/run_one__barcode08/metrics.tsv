@@ -1,0 +1,17 @@
+sample_key	run_one__barcode08
+run	run_one
+barcode	barcode08
+sample_id	run_one__barcode08
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	70
+raw_bases	26658
+filtered_reads	13
+filtered_bases	13201
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	13
+human_bases_removed	13201
+status	no_nonhuman_reads

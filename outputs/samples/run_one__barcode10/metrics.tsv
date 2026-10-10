@@ -1,0 +1,17 @@
+sample_key	run_one__barcode10
+run	run_one
+barcode	barcode10
+sample_id	run_one__barcode10
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	130
+raw_bases	73876
+filtered_reads	21
+filtered_bases	37176
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	21
+human_bases_removed	37176
+status	no_nonhuman_reads

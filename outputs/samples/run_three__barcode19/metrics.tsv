@@ -1,0 +1,17 @@
+sample_key	run_three__barcode19
+run	run_three
+barcode	barcode19
+sample_id	run_three__barcode19
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	5
+raw_bases	2553
+filtered_reads	1
+filtered_bases	2220
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	1
+human_bases_removed	2220
+status	no_nonhuman_reads

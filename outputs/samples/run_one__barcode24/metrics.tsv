@@ -1,0 +1,17 @@
+sample_key	run_one__barcode24
+run	run_one
+barcode	barcode24
+sample_id	run_one__barcode24
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	117
+raw_bases	63907
+filtered_reads	20
+filtered_bases	31212
+nohuman_reads	0
+nohuman_bases	0
+human_reads_removed	20
+human_bases_removed	31212
+status	no_nonhuman_reads

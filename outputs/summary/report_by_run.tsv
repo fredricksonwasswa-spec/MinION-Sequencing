@@ -1,0 +1,6 @@
+run	total_files	worked	empty_input	no_reads_after_filter	no_nonhuman_reads	no_reads_mapped_to_H99
+run_five	25	6	0	15	3	1
+run_four	25	2	0	16	4	3
+run_one	24	9	0	1	13	1
+run_three	25	2	0	8	12	3
+run_two	25	0	0	12	8	5

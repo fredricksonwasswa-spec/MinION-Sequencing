@@ -1,0 +1,10 @@
+VERSIONS.txt
+bcftools_1.20.sif
+flye_2.9.5.sif
+mafft_7.525.sif
+medaka_2.0.1.sif
+minimap2_2.28.sif
+mosdepth_0.3.8.sif
+nanofilt_2.8.0.sif
+samtools_1.20.sif
+seqkit_2.8.2.sif

@@ -1,0 +1,13 @@
+sample_key	run_four__barcode06
+run	run_four
+barcode	barcode06
+sample_id	run_four__barcode06
+min_q	10
+min_len	500
+min_mapq	10
+min_dp	3
+raw_reads	1
+raw_bases	106
+filtered_reads	0
+filtered_bases	0
+status	no_reads_after_filter

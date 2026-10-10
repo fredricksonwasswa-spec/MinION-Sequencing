@@ -1,0 +1,34 @@
+Barcode files analysed: 124 from 5 sequencing runs; total raw reads 3,919,027
+Worked (reads mapped to C. neoformans H99): 19    Did not work: 105
+
+Why barcodes did not yield C. neoformans data:
+    52  no_reads_after_filter: Reads present but ALL failed NanoFilt (mean quality < Q or length < min length)
+    40  no_nonhuman_reads: All reads that passed QC were human; none remained after human-read removal
+    13  no_reads_mapped_to_H99: Non-human reads present but none mapped to the C. neoformans H99 genome
+
+Samples that worked, by mean genome depth (human reads removed):
+  >=10x   0
+  1-10x   0
+  0.1-1x  1
+  <0.1x   18
+Human share of filtered reads in these samples: median 96.8% (range 0.0-99.7%)
+
+Top samples (by mean depth of the ~19 Mb H99 genome):
+  sample                 rawreads    %human H99reads  depth(x) breadth1x identity
+  run_one__barcode01       467461     73.35    17691    0.9500    41.374  0.85354
+  run_five__barcode01        8754     70.83      743    0.0700     6.558  0.97348
+  run_five__barcode22        6364     90.57      203    0.0400     3.351  0.97470
+  run_five__barcode24       10214     96.78      112    0.0300     2.465  0.95980
+  run_five__unclassified    17611     89.00      100    0.0100     1.272  0.96996
+  run_three__barcode15      67704     98.61       57    0.0100     0.594  0.97194
+  run_five__barcode09           1      0.00        1    0.0000     0.006  0.91230
+  run_five__barcode23        5111     99.04        1    0.0000     0.017  0.94590
+  run_four__barcode17        9587     99.38        3    0.0000     0.010  0.97023
+  run_four__barcode19        4997     99.69        1    0.0000     0.027  0.99230
+  run_one__barcode02      1087860     99.63       21    0.0000     0.072  0.83591
+  run_one__barcode03      1039428     99.69       18    0.0000     0.073  0.85734
+  run_one__barcode04       423673     99.64       17    0.0000     0.034  0.85869
+  run_one__barcode05          209     91.49        4    0.0000     0.010  0.82900
+  run_one__barcode09          102     95.00        1    0.0000     0.002  0.84430
+
+Files: report_failed.tsv, report_worked.tsv, report_by_run.tsv in /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/summary

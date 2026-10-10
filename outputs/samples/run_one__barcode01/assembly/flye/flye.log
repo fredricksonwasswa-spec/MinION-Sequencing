@@ -1,0 +1,74 @@
+[2026-09-30 23:01:09] root: INFO: Starting Flye 2.9.5-b1801
+[2026-09-30 23:01:09] root: DEBUG: Cmd: /usr/local/bin/flye --nano-hq /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/crypto_reads.fastq.gz --out-dir /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye --threads 8
+[2026-09-30 23:01:09] root: DEBUG: Python version: 3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]
+[2026-09-30 23:01:09] root: INFO: >>>STAGE: configure
+[2026-09-30 23:01:09] root: INFO: Configuring run
+[2026-09-30 23:01:11] root: INFO: Total read length: 14311700
+[2026-09-30 23:01:11] root: INFO: Reads N50/N90: 1356 / 639
+[2026-09-30 23:01:11] root: INFO: Minimum overlap set to 1000
+[2026-09-30 23:01:11] root: INFO: >>>STAGE: assembly
+[2026-09-30 23:01:11] root: INFO: Assembling disjointigs
+[2026-09-30 23:01:11] root: DEBUG: -----Begin assembly log------
+[2026-09-30 23:01:11] root: DEBUG: Running: flye-modules assemble --reads /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/crypto_reads.fastq.gz --out-asm /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/00-assembly/draft_assembly.fasta --config /usr/local/lib/python3.10/site-packages/flye/config/bin_cfg/asm_nano_hq.cfg --log /etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/flye.log --threads 8 --min-ovlp 1000
+[2026-09-30 23:01:11] DEBUG: Build date: Dec 13 2024 21:36:07
+[2026-09-30 23:01:11] DEBUG: Total RAM: 94 Gb
+[2026-09-30 23:01:11] DEBUG: Available RAM: 91 Gb
+[2026-09-30 23:01:11] DEBUG: Total CPUs: 272
+[2026-09-30 23:01:11] DEBUG: Loading /usr/local/lib/python3.10/site-packages/flye/config/bin_cfg/asm_nano_hq.cfg
+[2026-09-30 23:01:11] DEBUG: Loading /usr/local/lib/python3.10/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2026-09-30 23:01:11] DEBUG: 	big_genome_threshold=29000000
+[2026-09-30 23:01:11] DEBUG: 	meta_read_filter_kmer_freq=100
+[2026-09-30 23:01:11] DEBUG: 	chain_large_gap_penalty=2
+[2026-09-30 23:01:11] DEBUG: 	chain_small_gap_penalty=0.5
+[2026-09-30 23:01:11] DEBUG: 	chain_gap_jump_threshold=100
+[2026-09-30 23:01:11] DEBUG: 	max_jump_gap=500
+[2026-09-30 23:01:11] DEBUG: 	max_coverage_drop_rate=5
+[2026-09-30 23:01:11] DEBUG: 	max_extensions_drop_rate=5
+[2026-09-30 23:01:11] DEBUG: 	chimera_window=100
+[2026-09-30 23:01:11] DEBUG: 	chimera_overhang=1000
+[2026-09-30 23:01:11] DEBUG: 	min_reads_in_disjointig=4
+[2026-09-30 23:01:11] DEBUG: 	max_inner_reads=10
+[2026-09-30 23:01:11] DEBUG: 	max_inner_fraction=0.25
+[2026-09-30 23:01:11] DEBUG: 	aggressive_dup_filter=1
+[2026-09-30 23:01:11] DEBUG: 	max_separation=500
+[2026-09-30 23:01:11] DEBUG: 	unique_edge_length=50000
+[2026-09-30 23:01:11] DEBUG: 	min_repeat_res_support=0.51
+[2026-09-30 23:01:11] DEBUG: 	out_paths_ratio=5
+[2026-09-30 23:01:11] DEBUG: 	graph_cov_drop_rate=5
+[2026-09-30 23:01:11] DEBUG: 	coverage_estimate_window=100
+[2026-09-30 23:01:11] DEBUG: 	max_bubble_length=50000
+[2026-09-30 23:01:11] DEBUG: 	loop_coverage_rate=1.5
+[2026-09-30 23:01:11] DEBUG: 	repeat_edge_cov_mult=1.75
+[2026-09-30 23:01:11] DEBUG: 	weak_detach_rate=5
+[2026-09-30 23:01:11] DEBUG: 	tip_coverage_rate=2
+[2026-09-30 23:01:11] DEBUG: 	tip_length_rate=2
+[2026-09-30 23:01:11] DEBUG: 	output_gfa_before_rr=1
+[2026-09-30 23:01:11] DEBUG: 	remove_alt_edges=0
+[2026-09-30 23:01:11] DEBUG: 	low_cutoff_warning=0
+[2026-09-30 23:01:11] DEBUG: 	kmer_size=17
+[2026-09-30 23:01:11] DEBUG: 	use_minimizers=1
+[2026-09-30 23:01:11] DEBUG: 	minimizer_window=10
+[2026-09-30 23:01:11] DEBUG: 	reads_base_alignment=1
+[2026-09-30 23:01:11] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2026-09-30 23:01:11] DEBUG: 	maximum_jump=1500
+[2026-09-30 23:01:11] DEBUG: 	maximum_overhang=1500
+[2026-09-30 23:01:11] DEBUG: 	repeat_kmer_rate=100
+[2026-09-30 23:01:11] DEBUG: 	assemble_ovlp_divergence=0.05
+[2026-09-30 23:01:11] DEBUG: 	assemble_divergence_relative=1
+[2026-09-30 23:01:11] DEBUG: 	repeat_graph_ovlp_divergence=0.05
+[2026-09-30 23:01:11] DEBUG: 	read_align_ovlp_divergence=0.10
+[2026-09-30 23:01:11] DEBUG: 	hpc_scoring_on=1
+[2026-09-30 23:01:11] DEBUG: 	add_unassembled_reads=0
+[2026-09-30 23:01:11] DEBUG: 	extend_contigs_with_repeats=0
+[2026-09-30 23:01:11] DEBUG: 	min_read_cov_cutoff=3
+[2026-09-30 23:01:11] DEBUG: 	short_tip_length=20000
+[2026-09-30 23:01:11] DEBUG: 	long_tip_length=100000
+[2026-09-30 23:01:11] DEBUG: Running with k-mer size: 17
+[2026-09-30 23:01:11] DEBUG: Running with minimum overlap 1000
+[2026-09-30 23:01:11] DEBUG: Metagenome mode: N
+[2026-09-30 23:01:11] DEBUG: Short mode: N
+[2026-09-30 23:01:11] INFO: Reading sequences
+[2026-09-30 23:01:11] ERROR: The input contain reads with duplicated IDs. Make sure all reads have unique IDs and restart. The first problematic ID was: 94b57972-7272-4479-934e-f340115763c5
+-----------End assembly log------------
+[2026-09-30 23:01:11] root: ERROR: Command '['flye-modules', 'assemble', '--reads', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/crypto_reads.fastq.gz', '--out-asm', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/00-assembly/draft_assembly.fasta', '--config', '/usr/local/lib/python3.10/site-packages/flye/config/bin_cfg/asm_nano_hq.cfg', '--log', '/etc/ace-data/home/mainembabazi/Dr_Fred_Data/outputs/samples/run_one__barcode01/assembly/flye/flye.log', '--threads', '8', '--min-ovlp', '1000']' returned non-zero exit status 1.
+[2026-09-30 23:01:11] root: ERROR: Pipeline aborted
